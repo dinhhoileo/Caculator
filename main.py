@@ -26,9 +26,9 @@ class App:
         self.root=Tk()
         self.root.title("Caculator")
         self.root.geometry("309x430")
-        self.root.iconbitmap("caculator.ico")
+        self.root.iconbitmap("caculator.ico") 
         # TV
-        self.operator = ""
+        # self.operator = ""
         self.text_input =StringVar()
         
         self.show_caculator_entry=Entry(self.root,textvariable=self.text_input,width=13,font=("Arial",30),justify="right")
